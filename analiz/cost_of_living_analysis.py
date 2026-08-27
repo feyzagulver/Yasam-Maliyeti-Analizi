@@ -97,8 +97,6 @@ dfc = df[row_miss <= 0.30].reset_index(drop=True)
 print(f"Filtre sonrası satır sayısı: {len(dfc)} / {len(df)} (%{len(dfc)/len(df)*100:.0f})")
 print("\nBu altkümede data_quality dağılımı (bilgi amaçlı):")
 print(dfc['data_quality'].value_counts())
-print("\n-> Önceki 923 satıra kıyasla ~4.5 kat daha fazla veri kullanılıyor.")
-
 
 print("Örnek - winsorize öncesi en yüksek internet ücreti:",
       dfc['internet_60mbps_monthly'].max())
