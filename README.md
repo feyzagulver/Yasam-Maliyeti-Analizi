@@ -1,4 +1,4 @@
-# Cost of Living Analysis & Clustering
+# Yaşam Maliyeti Analizi ve Kümeleme
 
 Bu proje, yaşam maliyeti endeksi verilerini (Numbeo) kullanarak farklı lokasyonların K-Means algoritması ile kümeleme (clustering) analizini içermektedir. 
 
